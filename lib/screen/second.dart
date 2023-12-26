@@ -93,7 +93,10 @@ class _SecondPageState extends State<SecondPage> {
                           '19°C',
                           style: TextStyle(color: Colors.white),
                         ),
-                        Image.asset('img/kichik1.png'),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8, bottom: 3),
+                          child: Image.asset('img/bulut.png'),
+                        ),
                         Text(
                           '15.00',
                           style: TextStyle(color: Colors.white),
@@ -109,7 +112,10 @@ class _SecondPageState extends State<SecondPage> {
                           '19°C',
                           style: TextStyle(color: Colors.white),
                         ),
-                        Image.asset('img/kichik1.png'),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8, bottom: 3),
+                          child: Image.asset('img/bulut.png'),
+                        ),
                         Text(
                           '15.00',
                           style: TextStyle(color: Colors.white),
@@ -125,7 +131,10 @@ class _SecondPageState extends State<SecondPage> {
                           '19°C',
                           style: TextStyle(color: Colors.white),
                         ),
-                        Image.asset('img/kichik1.png'),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8, bottom: 3),
+                          child: Image.asset('img/bulut.png'),
+                        ),
                         Text(
                           '15.00',
                           style: TextStyle(color: Colors.white),

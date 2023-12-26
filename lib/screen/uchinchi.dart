@@ -91,7 +91,10 @@ class _UchinchiState extends State<Uchinchi> {
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 50, left: 5),
-                            child: Image.asset('img/kichik1.png'),
+                            child: Padding(
+                              padding: const EdgeInsets.only(top: 8, bottom: 3),
+                              child: Image.asset('img/bulut.png'),
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 130, left: 20),
@@ -117,7 +120,10 @@ class _UchinchiState extends State<Uchinchi> {
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 50, left: 5),
-                            child: Image.asset('img/kichik1.png'),
+                            child: Padding(
+                              padding: const EdgeInsets.only(top: 8, bottom: 3),
+                              child: Image.asset('img/bulut.png'),
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 130, left: 20),
